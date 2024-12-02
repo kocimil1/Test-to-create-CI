@@ -1,4 +1,4 @@
-from try_adding import add
+from src.try_adding import add
 
 def test_add():
 	assert add(2,3) == 5
