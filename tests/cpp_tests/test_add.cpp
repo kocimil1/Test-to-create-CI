@@ -7,7 +7,7 @@ TEST(AddFunctionTest, HandlesPositiveNumbers) {
 }
 
 TEST(AddFunctionTest, HandlesNegativeNumbers) {
-    EXPECT_EQ(add(-1, 1), 2) << "-1 + 1 is not 0?";
+    EXPECT_EQ(add(-1, 1), 0) << "-1 + 1 is not 0?";
 }
 
 TEST(AddFunctionTest, HandlesZero) {
