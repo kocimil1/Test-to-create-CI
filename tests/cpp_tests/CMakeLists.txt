@@ -17,7 +17,7 @@ add_executable(test_add test_add.cpp)
 target_link_libraries(test_add PRIVATE GTest::GTest add)
 
 # Specify include directories for the test
-target_include_directories(test_add PRIVATE ${CMAKE_SOURCE_DIR}/src)
+target_include_directories(test_add PRIVATE ${CMAKE_SOURCE_DIR}/src/cpp_src)
 
 # Register the test with CTest
 add_test(AddTest test_add)

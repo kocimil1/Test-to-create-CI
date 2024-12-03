@@ -1,5 +1,6 @@
-#include "cpp_src/add.h"
 #include <gtest/gtest.h>
+
+#include "add.h"
 
 
 TEST(AddFunctionTest, HandlesPositiveNumbers) {
